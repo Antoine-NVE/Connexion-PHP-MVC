@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background: url("../img/background.jpg");
+}
+
+h1 {
+  text-align: center;
+  color: rgb(243, 15, 192);
+}
+
+form {
+  background: rgb(46, 45, 43);
+  padding: 0.5rem;
+  max-width: 750px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  border-spacing: 0.5rem;
+}
+
+a {
+  color: rgb(243, 15, 192);
+}
+
+.right {
+  margin-left: auto;
+}
+
+label {
+  white-space: nowrap;
+}
+
+input {
+  width: 100%;
+  color: black;
+}
+
+.erreurs {
+  width: 30%;
+  color: red;
+}
+
+.succes {
+  color: green;
+}
+
+button {
+  background: rgb(243, 15, 192);
+  padding: 0.5rem;
+  cursor: pointer;
+}
